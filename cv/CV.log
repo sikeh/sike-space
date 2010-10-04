@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.9.19)  22 MAY 2010 14:51
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.9.19)  12 JUN 2010 15:41
 entering extended mode
 **CV.tex
 ("C:\Users\Sike Huang\Documents\sike-space\cv\CV.tex"
@@ -408,16 +408,13 @@ Overfull \hbox (9.85773pt too wide) in paragraph at lines 379--381
  Java, SIP/SDP, RTP(JMF), FreeTTS 
  []
 
-[2] [3] [4]
-Missing character: There is no ä in font cmr10!
-Missing character: There is no ö in font cmr10!
- AED: lastpage setting LastPage [5]
+[2] [3] [4] AED: lastpage setting LastPage [5]
 ("C:\Users\Sike Huang\Documents\sike-space\cv\CV.aux") ) 
 Here is how much of TeX's memory you used:
- 5432 strings out of 495285
- 78756 string characters out of 3180379
+ 5434 strings out of 495285
+ 78780 string characters out of 3180379
  147368 words of memory out of 3000000
- 8543 multiletter control sequences out of 15000+200000
+ 8544 multiletter control sequences out of 15000+200000
  7869 words of font info for 31 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  37i,14n,43p,287b,385s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -432,9 +429,9 @@ sfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmti10.p
 fb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/P
 rogram Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on CV.pdf (5 pages, 156953 bytes).
+Output written on CV.pdf (5 pages, 157479 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 117 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
