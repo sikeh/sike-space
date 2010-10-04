@@ -1,5 +1,6 @@
 package spring;
 
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageCreator;
 import org.springframework.amqp.core.SimpleMessageProperties;
@@ -27,7 +28,7 @@ public class FileWriter implements Writer {
     private ConnectionFactory connectionFactory;
 
     public void write(Product... products) {
-        RabbitTemplate template = new RabbitTemplate(connectionFactory);
+        AmqpTemplate template = new RabbitTemplate(connectionFactory);
         for (Product product : products) {
             final String file = prefix + product + suffix;
             template.send(new MessageCreator() {
