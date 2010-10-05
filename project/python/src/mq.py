@@ -8,6 +8,7 @@ from amqplib import client_0_8 as amqp
 from time import sleep
 from multiprocessing import Process, current_process
 
+host = 'dev.rabbitmq.com'
 userid = "guest"
 password = "guest"
 queue = "sike_queue"
@@ -15,7 +16,7 @@ exchange = "sike_exchange"
 routing_key = "sike_key"
 
 def consumer(queue, exchange, type, routing_key):
-    with amqp.Connection(host='dev.rabbitmq.com', userid = userid, password = password) as conn:
+    with amqp.Connection(host=host, userid = userid, password = password) as conn:
         with conn.channel() as chan:
 
             chan.queue_declare(queue = queue, auto_delete = False)
@@ -41,7 +42,7 @@ def consumer(queue, exchange, type, routing_key):
             while True: chan.wait()
 
 def publisher(exchange, routing_key):
-    with amqp.Connection(host='dev.rabbitmq.com', userid = userid, password = password) as conn:
+    with amqp.Connection(host=host, userid = userid, password = password) as conn:
         with conn.channel() as chan:
             x = 0
             while True:
