@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
+# http://www.rainsts.net/article.asp?id=1040
+
 from sys import exit
 from amqplib import client_0_8 as amqp
 from time import sleep
@@ -10,7 +12,7 @@ userid = "guest"
 password = "guest"
 queue = "sike_queue"
 exchange = "sike_exchange"
-routing_key = "sike_msg"
+routing_key = "sike_key"
 
 def consumer(queue, exchange, type, routing_key):
     with amqp.Connection(host='dev.rabbitmq.com', userid = userid, password = password) as conn:
