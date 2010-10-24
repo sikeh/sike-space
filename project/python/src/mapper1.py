@@ -1,5 +1,5 @@
-from sqlalchemy import *
-from sqlalchemy.orm import *
+from sqlalchemy import create_engine, MetaData, Table
+from sqlalchemy.orm import mapper
 
 db = create_engine('sqlite:///joindemo.db')
 
