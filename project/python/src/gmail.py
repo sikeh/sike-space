@@ -6,7 +6,7 @@ toaddrs = 'sike.huang@live.com'
 msg = 'hello world'
 
 username = 'sike.huang@gmail.com'
-password = '54Scott850414'
+password = 'password'
 
 server = smtplib.SMTP(host='smtp.gmail.com', port=587)
 server.ehlo()
